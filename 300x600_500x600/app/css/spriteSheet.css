@@ -1,0 +1,60 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-cta {
+  background-image: url(../images/spriteSheet.png);
+  background-position: 0px -600px;
+  width: 300px;
+  height: 600px;
+}
+.icon-ctaOver {
+  background-image: url(../images/spriteSheet.png);
+  background-position: -770px -600px;
+  width: 159px;
+  height: 31px;
+}
+.icon-ctaOver_exp {
+  background-image: url(../images/spriteSheet.png);
+  background-position: -600px -600px;
+  width: 170px;
+  height: 32px;
+}
+.icon-cta_exp {
+  background-image: url(../images/spriteSheet.png);
+  background-position: 0px 0px;
+  width: 500px;
+  height: 600px;
+}
+.icon-logo_exp {
+  background-image: url(../images/spriteSheet.png);
+  background-position: -500px 0px;
+  width: 500px;
+  height: 600px;
+}
+.icon-text1 {
+  background-image: url(../images/spriteSheet.png);
+  background-position: -300px -600px;
+  width: 300px;
+  height: 600px;
+}
+.icon-text1_exp {
+  background-image: url(../images/spriteSheet.png);
+  background-position: -1000px 0px;
+  width: 500px;
+  height: 600px;
+}
